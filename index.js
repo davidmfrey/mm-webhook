@@ -29,7 +29,7 @@ const attributeMap = {
   'name': valueToString,
   'emails': valueToString,
   'title': valueToString,
-  'orgId': valueToString,
+  'orgId': valueToString,//documented as 'organization'?
   'department': valueToString,
   'preferredLanguage': valueToString,
   'locale': valueToString,
@@ -41,7 +41,7 @@ const attributeMap = {
   'licenseID': valueToString,
   'userSettings': valueToString,
   'sipAddresses': valueToString,
-  'accountStatus': valueToString,
+  'userStatus': valueToString,
   'entitlements': valueToString,
   'userPreferences': valueToString,
   'managedOrgs': valueToString,

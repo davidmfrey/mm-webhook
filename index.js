@@ -155,7 +155,7 @@ async.series([
     process.exit(1);
   }
   /*  webhook handler for user events  */
-  app.put('/message-eq-user-event', [bodyParser.json(), (req, res) => {
+  app.post('/message-eq-user-event', [bodyParser.json(), (req, res) => {
     res.end();
     if(!req.body || !req.body.changeType) { 
       console.log(`Event body not received or invalid`);
